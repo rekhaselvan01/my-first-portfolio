@@ -1,0 +1,54 @@
+
+/* setting the background-color for body */
+body{
+    background-color: aqua;
+}
+
+/*aligning the header to appear on the left of the nav bar */
+.header{
+    text-align: left;
+}
+/* setting background color for nav bar and aligning the text to appear on right */
+nav{
+
+height: 75px;
+
+    background-color:bisque;
+    text-align: right;
+
+}
+/* setting the css properties for the div class subtitle */
+.subtitle{
+display: inline;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+   
+}
+
+/*Setting the font-size,style and border for the class about-me */ 
+
+#about-me{
+    font-size: 18px;
+    font-style: italic;
+    color: blue;
+    border: 10px 20px;
+    
+}
+
+/* setting the CSS properties for the section footer */
+footer{
+ display: inline;
+    width:200px;
+    height:200px;
+    text-align: center;
+   
+    color:green;
+    background-color: cadetblue;
+    
+    
+}
+
+
