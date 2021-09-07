@@ -1,54 +1,94 @@
-
-/* setting the background-color for body */
-body{
-    background-color: aqua;
+* {
+    box-sizing: border-box;
 }
 
-/*aligning the header to appear on the left of the nav bar */
-.header{
+body{
+
+    background-image: url("./images2/background-img5.jpeg");
+}
+/*h1{
+    background-image: url("./images2/background-img1.jpeg");
+height:40px;
+
+}
+*/
+
+nav li{
+    display: inline;
+    
+    text-align: right; 
+    text-decoration: underline;
+}
+
+nav{
+    background-image: url("./images2/background-img2.jpeg"); 
+    height:50px;
+    text-align: right;
+    
+}
+h1{
     text-align: left;
 }
-/* setting background color for nav bar and aligning the text to appear on right */
-nav{
 
-height: 75px;
+.my-photo img{  
+    max-width: 40%;  
+    height: auto;  
+    }  
 
-    background-color:bisque;
-    text-align: right;
+    .my-photo, .my-desc{
+        display: inline-flex;
+    }
 
-}
-/* setting the css properties for the div class subtitle */
-.subtitle{
-display: inline;
-    width: 50px;
-    height: 50px;
+    a{
+        text-align: center;
+        background-image: url("images2/background-img1.jpeg");
+    }
+    .about-me, .about-me-desc{
+        display: inline-flex;
+    }
+
+    .work, .flex-container{
+        display: inline-flex;
+    }
+.flex-container{
+    display:inline-flex;
+    flex-wrap: wrap;
+    background-color: aquamarine;
+    align-items:baseline;
+    flex-direction: row;
+    width:70%;
     text-align: center;
-    font-size: 18px;
-    font-weight: 100;
-   
 }
 
-/*Setting the font-size,style and border for the class about-me */ 
-
-#about-me{
-    font-size: 18px;
-    font-style: italic;
-    color: blue;
-    border: 10px 20px;
+.flex-container div{
     
-}
-
-/* setting the CSS properties for the section footer */
-footer{
- display: inline;
-    width:200px;
-    height:200px;
+    background-color: DodgerBlue;
+    color: white;
+    
+    margin: 10px;
     text-align: center;
    
-    color:green;
-    background-color: cadetblue;
-    
-    
+    font-size: 30px;
+    align-items: stretch;
 }
 
+.class1{
+flex: 8 0 1000px;
+}
+.class2{
+flex: 0 0 200px;
 
+}
+
+.footer{
+    display:inline;
+
+}
+.contact, .footer{
+
+
+    display:inline-flex;
+}
+
+  
+  

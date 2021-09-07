@@ -21,5 +21,3 @@ the contact link takes me to footer.
 the resume links correctly downloads the resume.
 
 When you click on the first image, it takes to my github repository representing my first deployed app..
-
-the 

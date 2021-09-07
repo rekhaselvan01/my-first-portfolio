@@ -1,89 +1,89 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!----External CSS  referencing-->
-    <link rel="stylesheet" type="text/css" href="style.css" />
-  </head>
+<html lang="en-US">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <title>My portfolio</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <body>
 
-  
-    <!----designing the nav bar to contain name on left and links on the right side-->
+  <h1>Rekha Selvan</h1>
+
+
   <nav>
-      <div>
-          <!----- the header displays the name of the person-->
-    <h1 class="header">Rekha Selvan</h1>
-</div>
-<div>
-    <!---the links wil be displayed on the right side of nav bar-->
-    <!---using bookmark-->
-    <!---when you click link about-me, it takes you to the paragraph about me-->
-<a class="link" href= "#B1" alt= "about me">About me</a>
-<!--using bookmark again, when you click work, it takes you to the first image where my first deployed app would be-->
-<a class="link" href= "#B2" alt= "Work">Work</a>
-<!--using bookmark, when you click on contact, it takes you to the contact in the footer section-->
-<a class="link" href= "#B3" alt= "contact">Contact</a>
-<!---when you click the resume, it downloads the resume from the resume folder into the index.html webpage-->
-<a class="link" href= "./resume/Rekha Selvan.docx" alt= "resume" target="_self">Resume</a>
-</div>
+
+    <ul>
+      <li><a class="link" href="#C4">About me</a></li>
+      <li> <a class="link" href="#C5">work</a></li>
+      <li><a class="link" href="#C6">contact</a></li>
+      <li><a class="link" href="./resume/Rekha Selvan.docx">resume</a></li>
+    </ul>
   </nav>
-  <!--this div contains the header front-end developer-->
-  <div class="subtitle">
-      <h2>Front-end developer</h2>
-  </div>
-  <!---new div begins-->
-<div id="B1" class="about-me">
-  <!---this div contains the header h3-->
-<h3>About me</h3>
-<!---paragraph explaining about me-->
-<p id="about-me">
-        I am Rekha Selvan. I love designing websites. This is my first portfolio project.
-        I love the way you can design a skeleton and add muscles and skin and finally put on
-        some makeup with the incredible css properties. It's awesome.....
-    </p>
-</div>
-<!---dividing the webpage into four sections to represent the work section-->
-<!----this section should contain first deployed app but currently has image1-->
-  <section>
-      <div>
-          <!--image1 represents first work-->
-          <a href="https://github.com/rekhaselvan01/refactor-bootcamp" target="_blank">
-          <img id="B2" src="./images/image1.jpeg" alt= "placeholder.com">
-          </a>
+  <main>
+
+
+    <div>
+      <section class="my-photo">
+        <img src="./images2/rekha-profile-tiny.jpeg">
+      </section>
+
+
+      <section class="my-desc">
+        <p> front-end web developer at work :)</p>
+
+      </section>
+    </div>
+
+    <div>
+      <section id="C4" class="about-me">
+        <h2>About me ||| </h2>
+      </section>
+      <section class="about-me-desc">
+        <p>This is my first portfolio. I love to design my very own website using all
+          advanced Css properties.
+        </p>
+
+      </section>
+    </div>
+
+    <div id="C5" class="work">
+
+      <h2>Work |||||</h2>
+    </div>
+
+    <div class="flex-container">
+      <div class="class1">
+        <a href="https://github.com/rekhaselvan01/refactor-bootcamp">
+       Code Refactor
+        </a>
       </div>
-      </div>
-  </section>
-
-<!--new section -->
-  <section> 
-    <div>
-        <!---this section has image2 which represents work2-->
-        <img id="C2" src="./images/image2.jpeg" alt= "placeholder.com"> 
+      
+        <div class="class2"><img src="images2/background-img9.jpeg"></div>
+        <div class="class2"><img src="images2/background-img3.jpeg"></div>
+        <div class="class2"><img src="images2/background-img7.jpeg"></div>
+        <div class="class2"><img src="images2/background-img6.jpeg"></div>
+      
     </div>
-  </section>
 
-<!---new section-->
-  <section>
-    <div>
-<!--this section has image3 which represents work3-->
-        <img id="C3" src="./images/image3.jpeg" alt= "placeholder.com">
-    </div>
-  </section>
 
-<!---New section-->
-  <section>
-    <div>
-<!----this section contains image4 which represents work4-->
-        <img id="C4" src="./images/image4.jpeg" alt= "placeholder.com">
+    <div class="class3">
+      <section id="C6" class="contact">
+        <h2>Contact ||| </h2>
+      </section>
+      <section class="footer">
+        <footer>
+          <p> Phone: 8989898989 Email:rekhaselvan01@gmail.com Github:rekhaselvan01/github.com Twitter: rekhaselvan
+            Spotify:rekha </p>
+        </footer>
+      </section>
     </div>
-  </section>
-  <!---footer section contains contact me-->
-<footer id="B3">
-    <!---this section has pohone no,email,github acnt, twitter and spotify of the person-->
-    <p>Contact me: 8888888888  rekhaselvan01@gmail.com  rekhaselvan01/github.com  rekhastwitter 
-        spotify</p>
-</footer>
+  </main>
 </body>
+
+
+
+
 </html>
