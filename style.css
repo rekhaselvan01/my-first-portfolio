@@ -1,17 +1,13 @@
 * {
     box-sizing: border-box;
 }
-
+/* setting background image for body */
 body{
 
     background-image: url("./images2/background-img5.jpeg");
+    background-size: 100% 100%;
 }
-/*h1{
-    background-image: url("./images2/background-img1.jpeg");
-height:40px;
-
-}
-*/
+/* making the nav bar links as list and displaying them inline  */
 
 nav li{
     display: inline;
@@ -19,76 +15,124 @@ nav li{
     text-align: right; 
     text-decoration: underline;
 }
-
+/* setting background image for nav bar */
 nav{
     background-image: url("./images2/background-img2.jpeg"); 
     height:50px;
     text-align: right;
     
 }
+/* aligning header to left */
 h1{
     text-align: left;
 }
-
+/* setting properties to my-photo img */
 .my-photo img{  
     max-width: 40%;  
     height: auto;  
     }  
-
+/* getting photo and desc to display inline */
     .my-photo, .my-desc{
         display: inline-flex;
     }
-
-    a{
-        text-align: center;
-        background-image: url("images2/background-img1.jpeg");
-    }
+    /* getting about-me and desc to appear side by side */
     .about-me, .about-me-desc{
         display: inline-flex;
     }
+    /* setting work and the flex-container to appear side by side */
 
     .work, .flex-container{
         display: inline-flex;
     }
+
+    /* setting up properties for flex-container */
 .flex-container{
     display:inline-flex;
     flex-wrap: wrap;
-    background-color: aquamarine;
+    background-color:cadetblue;
     align-items:baseline;
     flex-direction: row;
     width:70%;
-    text-align: center;
-}
-
-.flex-container div{
     
+}
+/*setting up properties for flex-container div */
+.flex-container div{   
     background-color: DodgerBlue;
     color: white;
-    
     margin: 10px;
     text-align: center;
-   
     font-size: 30px;
     align-items: stretch;
 }
-
+/* setting up flex for class1 */
 .class1{
-flex: 8 0 1000px;
+    
+flex: 8 1 auto;
 }
+
+/* setting up flex for class2 */
 .class2{
-flex: 0 0 200px;
+flex: 1 1 auto;
 
 }
-
+/* setting display properties for footer class */
 .footer{
     display:inline;
 
 }
+/* setting contac and footer class to appear inline */
 .contact, .footer{
-
-
     display:inline-flex;
 }
 
+/* setting properties for Tablets */
+@media screen and (max-width: 992px) {
+    /*nav bar list should appear in block */
+    nav li{
+        display:block;
+    }
+    /*set the width for class1 */
+    class1{
+        width:60%;
+    }
+    /*set width for class2 */
+    class2{
+        width:40%;
+    }
+    }
+  
+  
+  /* setting properties for large smartphones */
+  @media screen and (max-width: 768px) {
+    /*nav bar list should appear in block */
+    nav li{
+        display:block;
+    }
+    /*set the width for class1 */
+    class1{
+        width:50%;
+    }
+    /*set width for class2 */
+    class2{
+        width:30%;
+    }
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    /*nav bar list should appear in block */
+    nav li{
+        display:block;
+    }
+     /*set the width for class1 */
+    class1{
+        width:30%;
+    }
+    /*set width for class2 */
+    class2{
+        width:10%;
+    }
+  }
+  
   
   
