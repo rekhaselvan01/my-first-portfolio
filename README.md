@@ -21,6 +21,11 @@ the contact link takes me to footer.
 the resume links correctly downloads the resume.
 
 When you click on the first image, it takes to my github repository representing my first deployed app..
+
+
+
+Screenshot: The screenshot for first version and second version are available in the foler fld-screenshot.
+
 **************************
 
 Second and final version:
@@ -49,4 +54,15 @@ I am still not satisfied with the way the website looks.
 1. Needs more improvement in adjusting media screen with smartphones 
 2. Need more improvement in displaying work areas.. flex container.
 3. overall aesthetic look can be improved drastically.
+
+ 
+
+
+Second version:
+
+ 
+
+
+
+ 
 
