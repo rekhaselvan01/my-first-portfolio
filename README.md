@@ -57,11 +57,9 @@ I am still not satisfied with the way the website looks.
 
  
 
-
-Second version:
-
+Screen shot:
  
-
+![Second version](https://github.com/rekhaselvan01/my-first-portfolio/blob/main/fld-screenshot/screenshot2.jpg)
 
 
  
